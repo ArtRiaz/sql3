@@ -10,5 +10,4 @@ async def data_base():
     db.commit()
 
 
-async def user_id(message):
-    cur.execute("INSERT INTO user (user_id) VALUES(?)", [message.chat.id])
+
