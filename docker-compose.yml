@@ -7,6 +7,6 @@ services:
     container_name: tg_bot
     command: python main.py
     ports:
-      - 80:80
+      - 8000:8000
     volumes:
       - ./:/appe
